@@ -1,0 +1,8 @@
+[package]
+name = "ferroglow-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.9"
+ferroglow-models = { version = "0.1.0", path = "../ferroglow-models" }

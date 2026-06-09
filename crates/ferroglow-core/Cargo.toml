@@ -5,4 +5,6 @@ edition = "2024"
 
 [dependencies]
 axum = "0.8.9"
+ferroglow-api = { version = "0.1.0", path = "../ferroglow-api" }
+ferroglow-models = { version = "0.1.0", path = "../ferroglow-models" }
 tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread"] }
